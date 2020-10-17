@@ -11,4 +11,6 @@ func main() {
 	fmt.Println(m)
 	m["Key2"] = 555
 	fmt.Println(m)
+	delete(m, "Key1")
+	fmt.Println(m)
 }
