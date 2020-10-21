@@ -9,13 +9,13 @@ import (
 )
 
 type Users struct {
-	Users []User `json:"users`
+	Users []User `json:"users"`
 }
 
 type User struct {
 	Name   string `json:"name"`
 	Type   string `json:"type"`
-	Age    int    `"json:age"`
+	Age    int    `json:"age"`
 	Social Social `json:"social"`
 }
 
